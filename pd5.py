@@ -78,9 +78,7 @@ def enforce_loto_7_39(nums_float: np.ndarray) -> np.ndarray:
 
 
 def make_builders():
-    """
-    6 internih modela (analogija na pd5..pd10 stilove).
-    """
+    
     return [
         (
             "m1_boosted",
@@ -176,16 +174,16 @@ LGBM dostupan: DA
   - m1_boosted: 9.051870  (t=1.5s)
 
 [pozicija 3] trening + predikcija...
-  - m1_boosted: 14.551470  (t=1.5s)
+  - m1_boosted: x  (t=1.5s)
 
 [pozicija 4] trening + predikcija...
-  - m1_boosted: 19.829642  (t=1.6s)
+  - m1_boosted: y  (t=1.6s)
 
 [pozicija 5] trening + predikcija...
   - m1_boosted: 24.082444  (t=1.5s)
 
 [pozicija 6] trening + predikcija...
-  - m1_boosted: 29.729726  (t=1.5s)
+  - m1_boosted: z  (t=1.5s)
 
 [pozicija 7] trening + predikcija...
   - m1_boosted: 35.453766  (t=1.5s)
