@@ -32,7 +32,7 @@ except Exception:
 SEED = 39
 np.random.seed(SEED)
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv"
+CSV_PATH = "/data/loto7hh_4592_k27.csv"
 COLS = ["Num1", "Num2", "Num3", "Num4", "Num5", "Num6", "Num7"]
 FEATURE_COLS = [f"f{i+1}" for i in range(7)]
 
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 ========================================================================
 Prediction (Loto 7/39)
 ========================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv
+CSV: /data/loto7hh_4592_k27.csv
 Uzoraka za trening: 4591
 Modela: 1
 LGBM dostupan: DA
@@ -193,6 +193,6 @@ LGBM dostupan: DA
 ========================================================================
 PREDIKCIJA PO MODELU
 ========================================================================
-m1_boosted: [ 4  9 15 20 24 30 35]
+m1_boosted: [ 4  9 x y 24 z 35]
 ========================================================================
 """
